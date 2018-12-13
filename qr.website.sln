@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qr.website", "qr.website\qr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qr.website.Tests", "qr.website.Tests\qr.website.Tests.csproj", "{07286279-C082-4CEA-8F18-A2525417F8ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qr.service", "qr.service\qr.service.csproj", "{F5F46A20-41DC-4993-9F36-5644A0FC2787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{07286279-C082-4CEA-8F18-A2525417F8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07286279-C082-4CEA-8F18-A2525417F8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07286279-C082-4CEA-8F18-A2525417F8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5F46A20-41DC-4993-9F36-5644A0FC2787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F46A20-41DC-4993-9F36-5644A0FC2787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F46A20-41DC-4993-9F36-5644A0FC2787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F46A20-41DC-4993-9F36-5644A0FC2787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

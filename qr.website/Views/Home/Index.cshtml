@@ -1,15 +1,41 @@
-﻿<div class="jumbotron">
-    <h1>QR TEST</h1>
-    
-</div>
-<div class="row">
-    <div class="col-md-4">
+﻿@using qr.website.Controllers
+@model qr.website.Models.CodeViewModel
+
+
+    <div class="jumbotron">
+        <h1>QR TEST</h1>
+
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            
+            
+        </div>
         
+        <div class="col-md-4">
+            @Html.TextBoxFor(x => x.CodeValue)
+            <img src='@Url.Action("Report", "Home", new {model = @Model.CodeValue })' alt=""/>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Enter some text</h2>
-    </div>
-    <div class="col-md-4">
-        
-    </div>
-</div>
+
+@*<script>
+    $(document).ready(function () {
+        $('#btnClick').onclick(function () {
+            alert('bump');
+            //$.ajax({
+            //    url: '/home/indexx',
+            //    type: 'POST',
+            //    data: {
+            //        value: '1234'/*'$(\'#txtForm\').val'*/
+            //    },
+            //    contentType: 'application/json; charset=utf-8',
+            //    success: function (data) {
+            //        alert(data.success);
+            //    },
+            //    error: function () {
+            //        alert("error");
+            //    }
+            //});
+        });
+    });
+</script>*@
